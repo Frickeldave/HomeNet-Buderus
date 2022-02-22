@@ -1,0 +1,29 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bashdb",
+            "program": "${file}",
+            "args": ["gateway/uuid", "1"]
+        },
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bashdb Terminal",
+            "program": "${file}",
+            "args": ["gateway/uuid", "1"]
+        },
+        {
+            "type": "PowerShell",
+            "request": "launch",
+            "name": "Powershell",
+            "script": "${file}",
+            "cwd": "${file}"
+        }
+    ]
+}
